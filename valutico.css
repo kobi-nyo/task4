@@ -1,0 +1,149 @@
+
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+    ul {
+       list-style-type: none;
+        text-align: center;
+    }
+    ul> li a:link{
+        text-decoration: none;
+        color: darkblue;
+    }
+    ul>li {
+        display: inline-block;
+        padding: 15px;
+        color: burlywood;
+        align-items: center;
+    }
+   #header > ul > li > #mark {
+       padding-left: 10px;
+   }
+
+   #header > p{
+       background-color: rgb(28, 236, 28);
+       color: white;
+       border-radius: 10px;
+       width: 150px;
+       height: 30px;
+       padding: 7px;
+       text-align: center;
+       vertical-align: middle;
+   }
+ 
+   #header > p > #demo {
+       padding-left: 3px;
+   }
+
+   #title h1 {
+       text-align: center;
+   }
+   #title p {
+    text-align: center;
+   }
+
+   #title #sign {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+   }
+
+   #title #sign #ok {
+       text-align: center;
+       background-color: rgb(28, 236, 28);
+       color: white;
+       border-radius: 10px;
+       width: 150px;
+       height: 30px;
+       padding: 7px;
+   }
+
+   #title > #sign > #login {
+       background-color: white;
+      border-style: solid;
+      border-color: rgb(28, 236, 28);
+      border-radius: 10px;
+      width: 150px;
+      height: 25px;
+      padding: 7px;
+      color: rgb(28, 236, 28);
+      margin-left: 10px;
+   }
+
+  #title > h3 {
+      text-align: center;
+  }
+
+  #photos {
+      display: flex;
+      flex-direction: column;
+      width: 30.5em;
+      justify-content: center;
+      background-color: white;
+      flex-wrap: wrap;
+      text-align: center;
+  }
+
+  #photos #grid {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+  }
+
+  #photos #grid #pic {
+      margin: 5px;
+      width: 15.5em;
+      height: 70px;
+      background-color: rgb(250, 249, 249);
+  }
+
+  #why {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      margin-top: 50px;
+  }
+
+  #why p {
+      color: rgb(165, 163, 163);
+      font-size: 20px;
+  }
+
+  #why #block {
+      display: flex;
+      flex-direction: row;
+  }
+
+  #why #block #reason {
+      padding: 30px;
+  }
+
+  #footer {
+      margin: 30px;
+      position: relative;
+  }
+
+  #footer #left {
+      float: left;
+      text-align: left;
+      font-size: 20px;
+  }
+  #footer #right {
+      float: right;
+  }
+
+ #footer #bottom {
+      text-align: center;
+       background-color: rgb(28, 236, 28);
+       color: white;
+       border-radius: 10px;
+       position: absolute;
+        align-items: center;
+     bottom: 0px;
+     align-content: center;
+       
+  }
